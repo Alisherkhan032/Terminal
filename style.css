@@ -12,14 +12,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
 .main{
-    width: 80vw;
+    width: 90vw;
     height: 90vh;
     /* border: 2px solid; */
     background-color: rgba(0, 0, 0, 0.667);
-    padding: 8px;
+    padding: 5px;
 }
 span,pre{
     display: inline-block;
@@ -42,13 +43,14 @@ span,pre{
 }
 .header-text{
     color: white;
-    margin-left: 30%;
+    margin-left: 34%;
 }
 
 .line{
     margin-top: 3%;
     margin-left: 1%;
     font-weight: 400;
+    margin-right: 10px;
 }
 .display-text{
     color: white;  
@@ -59,3 +61,8 @@ span,pre{
 .help{
     background-color: rgb(18, 113, 255);
 }
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
