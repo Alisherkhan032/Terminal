@@ -25,12 +25,16 @@
 span,pre{
     display: inline-block;
 }
+nav{
+    cursor: pointer;
+}
 .light{
     width: 15px;
     height: 15px;
     border-radius: 50%;
     margin-left: 5px;
     margin-top: 5px;
+    cursor: pointer;
 }
 .green-text{
     color: rgb(89, 234, 89)
@@ -61,8 +65,3 @@ span,pre{
 .help{
     background-color: rgb(18, 113, 255);
 }
-
-@keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
-  }
